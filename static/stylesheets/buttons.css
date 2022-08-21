@@ -1,0 +1,54 @@
+#sidebar {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 32px;
+    background-color: #26272B;
+    height: 100%;
+}
+
+#sidebar > a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: #202225;
+    border-bottom: #26272B 2px solid;
+}
+
+#sidebar > a > svg {
+    padding: 6px 4px 7px;
+    color: #7e7e7e;
+}
+
+#sidebar > a:hover > svg {
+    color: white;
+}
+
+#sidebar > div {
+    display: block;
+
+    width: 32px;
+    height: 37px;
+}
+
+#sidebar > div > svg {
+    padding: 6px 4px 7px;
+    color: #40444B;
+}
+
+#sidebar > .enabled {
+    cursor: pointer;
+}
+
+#sidebar > div:not(.enabled) {
+    cursor: not-allowed;
+}
+
+#sidebar > .enabled > svg {
+    color: #7e7e7e;
+}
+
+#sidebar > .enabled:hover > svg {
+    color: white;
+}

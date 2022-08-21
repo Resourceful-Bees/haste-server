@@ -1,0 +1,25 @@
+#message {
+    z-index: 6000;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#message[open=""] {
+    display: flex;
+}
+
+#message > div {
+    width: 20%;
+    height: 20%;
+    background-color: #26272B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dc322f;
+    font-size: 25px;
+    font-family: monospace;
+}
